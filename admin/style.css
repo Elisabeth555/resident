@@ -1,0 +1,18 @@
+#popMessage {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 200px;
+  padding: 2rem;
+}
+
+#popMessage .success {
+  background-color: green;
+  color: white;
+  text-decoration: wavy;
+}
+#popMessage .error {
+  background-color: red;
+  color: white;
+  text-decoration: wavy;
+}
